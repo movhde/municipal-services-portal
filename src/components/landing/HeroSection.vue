@@ -5,7 +5,7 @@ import heroSec3 from '@/assets/images/heroSec3.png'
 </script>
 
 <template>
-  <div class="flex md:flex-row flex-col gap-2 lg:gap-4 px-4 lg:px-8">
+  <div class="flex md:flex-row flex-col gap-2 lg:gap-4 px-4 md:px-8">
     <div class="flex-2">
       <img :src="heroSec3" class="rounded-md w-full h-full" />
     </div>
