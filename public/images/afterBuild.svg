@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 100" width="120" height="100">
+  
+  <!-- سایه پایین -->
+  <ellipse cx="50" cy="92" rx="40" ry="5" fill="#000000" opacity="0.08" />
+  
+  <!-- پایه چوبی -->
+  <rect x="15" y="84" width="70" height="6" rx="2" fill="#78350f" />
+  <rect x="15" y="84" width="70" height="2" rx="1" fill="#92400e" opacity="0.5" />
+  
+  <!-- بدنه خانه (سفید) -->
+  <rect x="18" y="42" width="64" height="42" rx="3" fill="#f8fafc" />
+  <rect x="18" y="42" width="64" height="42" rx="3" fill="none" stroke="#e2e8f0" stroke-width="1" />
+  
+  <!-- سقف (نارنجی) -->
+  <path d="M8 44 L50 15 L92 44 Z" fill="#f1953f" stroke="#e07a2c" stroke-width="1.5" stroke-linejoin="round" />
+  
+  <!-- خط کاشی سقف (ساده) -->
+  <line x1="25" y1="37" x2="75" y2="37" stroke="#e07a2c" stroke-width="1" opacity="0.4" />
+  
+  <!-- دودکش -->
+  <rect x="68" y="24" width="10" height="18" rx="2" fill="#d97706" />
+  <rect x="66" y="22" width="14" height="3" rx="1" fill="#f1953f" />
+  
+  <!-- در -->
+  <rect x="42" y="61" width="16" height="23" rx="3" fill="#f1953f" />
+  <rect x="43" y="62" width="14" height="4" fill="#e07a2c" opacity="0.4" />
+  <circle cx="55" cy="73" r="1.5" fill="#ffffff" />
+  
+  <!-- پنجره چپ -->
+  <rect x="24" y="53" width="14" height="14" rx="2" fill="#bfdbfe" />
+  <rect x="23" y="52" width="16" height="16" rx="2.5" fill="none" stroke="#ffffff" stroke-width="2" />
+  <line x1="31" y1="52" x2="31" y2="68" stroke="#ffffff" stroke-width="1.5" />
+  <line x1="23" y1="60" x2="39" y2="60" stroke="#ffffff" stroke-width="1.5" />
+  
+  <!-- پنجره راست -->
+  <rect x="62" y="53" width="14" height="14" rx="2" fill="#bfdbfe" />
+  <rect x="61" y="52" width="16" height="16" rx="2.5" fill="none" stroke="#ffffff" stroke-width="2" />
+  <line x1="69" y1="52" x2="69" y2="68" stroke="#ffffff" stroke-width="1.5" />
+  <line x1="61" y1="60" x2="77" y2="60" stroke="#ffffff" stroke-width="1.5" />
+  
+  <!-- ===== مدال ===== -->
+  
+  <!-- روبان -->
+  <path d="M98 20 L104 32 L110 20 Z" fill="#f1953f" stroke="#d97706" stroke-width="0.5" stroke-linejoin="round" />
+  <rect x="102" y="30" width="4" height="12" rx="1" fill="#d97706" />
+  
+  <!-- بدنه مدال -->
+  <circle cx="104" cy="50" r="14" fill="#fbbf24" />
+  <circle cx="104" cy="50" r="10" fill="none" stroke="#f1953f" stroke-width="2" />
+  
+  <!-- تیک داخل مدال -->
+  <path d="M97 50 L102 55 L111 44" fill="none" stroke="#f1953f" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+  
+  <!-- درخشش مدال -->
+  <circle cx="109" cy="45" r="1.5" fill="#ffffff" opacity="0.8" />
+  
+</svg>
