@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import HeroSection from '@/components/landing/HeroSection.vue'
+import ServiceSection from '@/components/landing/ServiceSection.vue'
 import AppHeader from '@/components/layout/AppHeader.vue'
+import { serviceSections } from '@/data/service-sections'
 </script>
 
 <template>
@@ -8,6 +10,9 @@ import AppHeader from '@/components/layout/AppHeader.vue'
     <div class="flex flex-col gap-4">
       <AppHeader />
       <HeroSection />
+    </div>
+    <div>
+      <ServiceSection :sections="serviceSections" />
     </div>
   </div>
 </template>
