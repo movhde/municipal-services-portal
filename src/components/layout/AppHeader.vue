@@ -23,14 +23,14 @@ const closeMenu = () => (isMenuOpen.value = false)
       <li v-for="nav in navLinks" :key="nav.link">
         <router-link
           :to="nav.link"
-          class="flex items-center gap-2 text-base p-2 rounded-md hover:bg-white/20 transition"
+          class="flex items-center gap-2 text-base p-2 rounded-md hover:bg-white/20 transition outline-none"
         >
           <i :class="`pi pi-${nav.icon}`"></i>
           {{ nav.name }}
         </router-link>
       </li>
     </ul>
-    <button @click="toggleMenu" class="lg:hidden text-white text-2xl cursor-pointer">
+    <button @click="toggleMenu" class="lg:hidden text-white text-2xl cursor-pointer outline-none">
       <i class="pi pi-bars" style="font-size: 1.2rem"></i>
     </button>
   </nav>
@@ -45,7 +45,7 @@ const closeMenu = () => (isMenuOpen.value = false)
     class="lg:hidden fixed top-0 right-0 h-full w-60 bg-[#012467] z-50 transform transition-transform duration-300 ease-in-out shadow-2xl p-4 flex flex-col gap-2"
     :class="isMenuOpen ? 'translate-x-0' : 'translate-x-full'"
   >
-    <button @click="closeMenu" class="self-end cursor-pointer">
+    <button @click="closeMenu" class="self-end cursor-pointer outline-none">
       <i class="pi pi-times"></i>
     </button>
     <ul class="flex flex-col gap-2 text-[#d0d0d0]">
@@ -54,7 +54,7 @@ const closeMenu = () => (isMenuOpen.value = false)
         :key="nav.link"
         class="hover:bg-white/20 rounded-md p-2 transition-all duration-200"
       >
-        <router-link :to="nav.link" class="flex items-center gap-3" @click="closeMenu">
+        <router-link :to="nav.link" class="flex items-center gap-3 outline-none" @click="closeMenu">
           <i :class="`pi pi-${nav.icon}`"></i>
           {{ nav.name }}
         </router-link>
