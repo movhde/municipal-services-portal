@@ -3,6 +3,7 @@ import HeroSection from '@/components/landing/HeroSection.vue'
 import ServiceSection from '@/components/landing/ServiceSection.vue'
 import AppHeader from '@/components/layout/AppHeader.vue'
 import { serviceSections } from '@/data/service-sections'
+import FaqSection from '@/components/landing/FaqSection.vue'
 </script>
 
 <template>
@@ -14,5 +15,6 @@ import { serviceSections } from '@/data/service-sections'
     <div>
       <ServiceSection :sections="serviceSections" />
     </div>
+    <FaqSection />
   </div>
 </template>
