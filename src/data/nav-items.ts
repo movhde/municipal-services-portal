@@ -1,0 +1,91 @@
+import type { NavItem } from '@/types/nav-items'
+
+export const navItems: NavItem[] = [
+  { id: 1, name: 'نقشه', icon: 'map', link: '/', subItems: [] },
+  {
+    id: 2,
+    name: 'ثبت درخواست',
+    icon: 'file-plus',
+    link: '/',
+    subItems: [
+      {
+        id: 1,
+        title: 'پیش از ساخت',
+        bgColor: 'bg-[#239b8c]',
+        icon: 'circle-fill',
+        link: '/',
+        items: [
+          { id: 1, title: 'صدور پروانه', icon: 'file-edit', link: '/' },
+          { id: 2, title: 'توقف مجور کسب و پیشه', icon: 'exclamation-circle', link: '/' },
+          { id: 3, title: 'دریافت مفاصا', icon: 'file-plus', link: '/' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'درحال ساخت',
+        bgColor: 'bg-[#3c64a7]',
+        icon: 'circle-fill',
+        link: '/',
+        items: [
+          { id: 1, title: 'اصلاح پروانه', icon: 'file-plus', link: '/' },
+          { id: 2, title: 'عدم خلاف', icon: 'file-plus', link: '/' },
+          { id: 3, title: 'تمدید', icon: 'file-plus', link: '/' },
+          { id: 4, title: 'تجدید', icon: 'file-plus', link: '/' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'پس از ساخت',
+        bgColor: 'bg-[#f59b06]',
+        icon: 'circle-fill',
+        link: '/',
+        items: [
+          { id: 1, title: 'توسعه بنا', icon: 'building', link: '/' },
+          { id: 2, title: 'اضافه اشکوب', icon: 'building', link: '/' },
+          { id: 3, title: 'پایان کار', icon: 'home', link: '/' },
+          { id: 4, title: 'تعلیق مجوز کسب و پیشه', icon: 'file-plus', link: '/' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'سایر درخواست‌ها',
+        bgColor: 'bg-[#0277af]',
+        icon: 'circle-fill',
+        link: '/',
+        items: [
+          { id: 1, title: 'استعلام دفترخانه', icon: 'search', link: '/' },
+          { id: 2, title: 'استعلام بانک', icon: 'search', link: '/' },
+          { id: 3, title: 'اداره برق', icon: 'search', link: '/' },
+          { id: 4, title: 'دادگستری', icon: 'search', link: '/' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'فرآیندهای صنفی',
+        bgColor: 'bg-[#f19b0c]',
+        icon: 'circle-fill',
+        link: '/',
+        items: [
+          { id: 1, title: 'اصلاح مجوز بهره‌برداری', icon: 'file-plus', link: '/' },
+          { id: 2, title: 'تعليق مجوز بهره‌برداری', icon: 'file-plus', link: '/' },
+          { id: 3, title: 'توقف مجوز بهره‌برداری', icon: 'file-plus', link: '/' },
+          { id: 4, title: 'صدور مجوز کسب و پیشه', icon: 'file-plus', link: '/' },
+          { id: 5, title: 'تمدید مجوز کسب و پیشه', icon: 'file-plus', link: '/' },
+          { id: 6, title: 'اصلاح مجوز کسب و پیشه', icon: 'file-plus', link: '/' },
+        ],
+      },
+      {
+        id: 6,
+        title: 'بازرگانی بهره‌برداری',
+        bgColor: 'bg-[#3c63a7]',
+        icon: 'circle-fill',
+        link: '/',
+        items: [{ id: 1, title: 'تمدید مجوز بهره‌برداری', icon: 'file-plus', link: '/' }],
+      },
+    ],
+  },
+  { id: 3, name: 'پرداخت عوارض', icon: 'credit-card', link: '/', subItems: [] },
+  { id: 4, name: 'تصدیق گواهی', icon: 'check-square', link: '/', subItems: [] },
+  { id: 5, name: 'خود اظهاری', icon: 'face-smile', link: '/', subItems: [] },
+  { id: 6, name: 'گزارش مردمی', icon: 'exclamation-triangle', link: '/', subItems: [] },
+]
