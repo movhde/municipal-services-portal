@@ -2,6 +2,7 @@
 import 'primeicons/primeicons.css'
 import type { ServiceCard } from '@/types/service-section'
 import { themeMap } from '@/data/service-sections'
+import AnimatedCard from '../ui/AnimatedCard.vue'
 
 defineProps<{
   cards: ServiceCard[]
@@ -10,9 +11,10 @@ defineProps<{
 
 <template>
   <div class="grid grid-cols-2 lg:grid-cols-4 gap-2 md:gap-4 w-full">
-    <div
-      v-for="card in cards"
+    <AnimatedCard
+      v-for="(card, i) in cards"
       :key="card.title"
+      :style="{ transitionDelay: `${i * 80}ms` }"
       class="bg-white border border-gray-200 flex flex-col gap-2 rounded-xl"
     >
       <div class="flex flex-col items-center gap-4 p-2 md:p-6">
@@ -55,6 +57,6 @@ defineProps<{
           </div>
         </div>
       </div>
-    </div>
+    </AnimatedCard>
   </div>
 </template>
