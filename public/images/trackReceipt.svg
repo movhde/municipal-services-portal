@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 10 120 100" width="120" height="100">
+  
+  <!-- سایه -->
+  <ellipse cx="55" cy="92" rx="45" ry="5" fill="#000000" opacity="0.08" />
+  
+  <!-- ===== فیش (سمت چپ) ===== -->
+  <g transform="translate(12, 40)">
+    <!-- کاغذ فیش -->
+    <rect x="0" y="0" width="42" height="50" rx="4" fill="#ffffff" stroke="#3b82f6" stroke-width="2" />
+    
+    <!-- سربرگ فیش -->
+    <rect x="0" y="0" width="42" height="12" rx="4" fill="#3b82f6" />
+    <rect x="0" y="6" width="42" height="6" fill="#3b82f6" />
+        
+    <!-- خطوط -->
+    <line x1="6" y1="19" x2="36" y2="19" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="6" y1="25" x2="32" y2="25" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="6" y1="31" x2="34" y2="31" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+    <line x1="6" y1="37" x2="28" y2="37" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" />
+    
+    <!-- خط جداکننده -->
+    <line x1="6" y1="43" x2="36" y2="43" stroke="#3b82f6" stroke-width="1" stroke-dasharray="3,2" />
+    
+    <!-- بارکد -->
+    <line x1="8" y1="46" x2="8" y2="49" stroke="#3b82f6" stroke-width="1.5" />
+    <line x1="12" y1="46" x2="12" y2="49" stroke="#3b82f6" stroke-width="1" />
+    <line x1="15" y1="46" x2="15" y2="49" stroke="#3b82f6" stroke-width="1.5" />
+    <line x1="18" y1="46" x2="18" y2="49" stroke="#3b82f6" stroke-width="0.8" />
+    <line x1="21" y1="46" x2="21" y2="49" stroke="#3b82f6" stroke-width="1.2" />
+    <line x1="24" y1="46" x2="24" y2="49" stroke="#3b82f6" stroke-width="1.5" />
+    <line x1="27" y1="46" x2="27" y2="49" stroke="#3b82f6" stroke-width="0.8" />
+    <line x1="30" y1="46" x2="30" y2="49" stroke="#3b82f6" stroke-width="1" />
+    <line x1="34" y1="46" x2="34" y2="49" stroke="#3b82f6" stroke-width="1.5" />
+  </g>
+  
+  <!-- ===== ذره‌بین (سمت راست - دسته درست) ===== -->
+  <g transform="translate(68, 48)">
+    <!-- حلقه ذره‌بین -->
+    <circle cx="0" cy="0" r="16" fill="none" stroke="#6b7280" stroke-width="4" />
+    
+    <!-- شیشه ذره‌بین -->
+    <circle cx="0" cy="0" r="12" fill="#bfdbfe" opacity="0.5" />
+    
+    <!-- خطوط جستجو داخل ذره‌بین -->
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" />
+    <line x1="0" y1="-6" x2="0" y2="6" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" />
+    
+    <!-- انعکاس روی شیشه -->
+    <path d="M-7 -6 L-3 -9" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.7" />
+    
+    <!-- دسته ذره‌بین (پایین سمت راست) -->
+    <line x1="12" y1="10" x2="24" y2="22" stroke="#6b7280" stroke-width="4" stroke-linecap="round" />
+  </g>
+  
+  <!-- ===== نقطه‌های اتصال بین فیش و ذره‌بین ===== -->
+  <g transform="translate(56, 72)">
+    <circle cx="0" cy="0" r="2.5" fill="#3b82f6" />
+    <circle cx="7" cy="0" r="2" fill="#60a5fa" opacity="0.6" />
+    <circle cx="12" cy="0" r="1.5" fill="#93c5fd" opacity="0.4" />
+  </g>
+  
+</svg>
