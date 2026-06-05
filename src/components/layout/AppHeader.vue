@@ -45,7 +45,7 @@ const closeMenu = () => (isMenuOpen.value = false)
     class="lg:hidden fixed top-0 right-0 h-full w-60 bg-[#012467] z-50 transform transition-transform duration-300 ease-in-out shadow-2xl p-4 flex flex-col gap-2"
     :class="isMenuOpen ? 'translate-x-0' : 'translate-x-full'"
   >
-    <button @click="closeMenu" class="self-end cursor-pointer outline-none">
+    <button @click="closeMenu" class="self-end cursor-pointer outline-none text-white">
       <i class="pi pi-times"></i>
     </button>
     <ul class="flex flex-col gap-2 text-[#d0d0d0]">
