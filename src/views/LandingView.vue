@@ -6,13 +6,17 @@ import { serviceSections } from '@/data/service-sections'
 import FaqSection from '@/components/landing/FaqSection.vue'
 import TaxCategories from '@/components/landing/TaxCategories.vue'
 import AppFooter from '@/components/layout/AppFooter.vue'
+import AppNavbar from '@/components/layout/AppNavbar.vue'
 </script>
 
 <template>
   <div class="bg-[#f5f5f5] w-full min-h-screen flex flex-col gap-10">
-    <div class="flex flex-col gap-4">
+    <div class="flex flex-col">
       <AppHeader />
-      <HeroSection />
+      <div class="flex flex-col gap-4">
+        <AppNavbar />
+        <HeroSection />
+      </div>
     </div>
     <div>
       <ServiceSection :sections="serviceSections" />
