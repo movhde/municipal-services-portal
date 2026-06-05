@@ -5,6 +5,7 @@ import AppHeader from '@/components/layout/AppHeader.vue'
 import { serviceSections } from '@/data/service-sections'
 import FaqSection from '@/components/landing/FaqSection.vue'
 import TaxCategories from '@/components/landing/TaxCategories.vue'
+import AppFooter from '@/components/layout/AppFooter.vue'
 </script>
 
 <template>
@@ -18,5 +19,6 @@ import TaxCategories from '@/components/landing/TaxCategories.vue'
       <TaxCategories />
     </div>
     <FaqSection />
+    <AppFooter />
   </div>
 </template>
