@@ -10,18 +10,12 @@ import AppNavbar from '@/components/layout/AppNavbar.vue'
 </script>
 
 <template>
-  <div class="bg-[#f5f5f5] w-full min-h-screen flex flex-col gap-10">
-    <div class="flex flex-col">
-      <AppHeader />
-      <div class="flex flex-col gap-4">
-        <AppNavbar />
-        <HeroSection />
-      </div>
-    </div>
-    <div>
-      <ServiceSection :sections="serviceSections" />
-      <TaxCategories />
-    </div>
+  <div class="bg-[#f5f5f5] w-full min-h-screen flex flex-col">
+    <AppHeader />
+    <AppNavbar />
+    <HeroSection />
+    <ServiceSection :sections="serviceSections" />
+    <TaxCategories />
     <FaqSection />
     <AppFooter />
   </div>
