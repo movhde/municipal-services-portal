@@ -5,3 +5,13 @@ export interface LoginForm {
 }
 
 export type LoginFormErrors = Partial<LoginForm>
+
+export interface User {
+  id: number
+  firstName: string
+  lastName: string
+  phone: string
+  nationalCode: string
+  email: string
+  password: string
+}

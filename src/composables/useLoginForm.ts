@@ -1,9 +1,12 @@
+import { authService } from '@/services/authService'
+import { useAuthStore } from '@/stores/auth'
 import type { LoginForm, LoginFormErrors } from '@/types/auth'
 import { reactive, ref } from 'vue'
 import { useRouter } from 'vue-router'
 
 export function useLoginForm() {
   const router = useRouter()
+  const authStore = useAuthStore()
 
   const form: LoginForm = reactive({
     phone: '',
@@ -45,6 +48,8 @@ export function useLoginForm() {
 
     try {
       loading.value = true
+      const user = await authService.login(form.phone, form.password)
+      authStore.login(user)
       router.push('/')
     } catch (e: any) {
       serverError.value = e.message
