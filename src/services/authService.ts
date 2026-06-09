@@ -53,4 +53,15 @@ export const authService = {
       throw error
     }
   },
+  updateUser: async (id: number, data: Partial<User>) => {
+    const response = await fetch(`${BASE_URL}/users/${id}`, {
+      method: 'PATCH',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    })
+
+    return response.json()
+  },
 }
