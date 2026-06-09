@@ -17,6 +17,7 @@ export interface User {
   nationalCode: string
   email: string
   password: string
+  avatar?: string
 }
 
 export interface SignupForm {

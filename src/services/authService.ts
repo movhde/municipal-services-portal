@@ -53,14 +53,18 @@ export const authService = {
       throw error
     }
   },
-  updateUser: async (id: number, data: Partial<User>) => {
+  updateUser: async (id: number, userData: Partial<User>) => {
     const response = await fetch(`${BASE_URL}/users/${id}`, {
       method: 'PATCH',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(data),
+      body: JSON.stringify(userData),
     })
+
+    if (!response.ok) {
+      throw new Error('خطا در بروزرسانی اطلاعات')
+    }
 
     return response.json()
   },
