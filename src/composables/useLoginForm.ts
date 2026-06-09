@@ -3,6 +3,7 @@ import { useAuthStore } from '@/stores/auth'
 import type { LoginForm, LoginFormErrors } from '@/types/auth'
 import { reactive, ref } from 'vue'
 import { useRouter } from 'vue-router'
+import { validatePhone, validatePassword } from '@/utils/validators'
 
 export function useLoginForm() {
   const router = useRouter()
@@ -22,22 +23,16 @@ export function useLoginForm() {
   const serverError = ref('')
   const loading = ref(false)
 
-  const validatePhone = () => {
-    if (!form.phone.trim()) errors.phone = 'شماره موبایل را وارد کنید'
-    else if (!/^09\d{9}$/.test(form.phone))
-      errors.phone = 'شماره موبایل معتبر نیست (مثال: 09123456789)'
-    else errors.phone = ''
+  const validatePhoneField = () => {
+    errors.phone = validatePhone(form.phone)
   }
-
-  const validatePassword = () => {
-    if (!form.password.trim()) errors.password = 'رمز عبور را وارد کنید'
-    else if (form.password.length < 8) errors.password = 'رمز عبور باید حداقل ۸ کاراکتر باشد'
-    else errors.password = ''
+  const validatePasswordField = () => {
+    errors.password = validatePassword(form.password)
   }
 
   const isValid = () => {
-    validatePhone()
-    validatePassword()
+    validatePhoneField()
+    validatePasswordField()
     return !errors.phone && !errors.password
   }
 
@@ -58,5 +53,13 @@ export function useLoginForm() {
     }
   }
 
-  return { handleSubmit, serverError, form, errors, validatePhone, validatePassword, loading }
+  return {
+    handleSubmit,
+    serverError,
+    form,
+    errors,
+    validatePhone: validatePhoneField,
+    validatePassword: validatePasswordField,
+    loading,
+  }
 }

@@ -1,7 +1,8 @@
 <script setup>
 import { useLoginForm } from '@/composables/useLoginForm'
 import { Checkbox, InputText, Password } from 'primevue'
-import { Transition } from 'vue'
+import 'primeicons/primeicons.css'
+import FormField from '../ui/FormField.vue'
 
 const { handleSubmit, serverError, form, errors, validatePassword, validatePhone, loading } =
   useLoginForm()
@@ -24,8 +25,7 @@ const { handleSubmit, serverError, form, errors, validatePassword, validatePhone
         {{ serverError }}
       </div>
 
-      <div class="flex flex-col gap-1.5">
-        <label class="text-sm font-medium text-gray-700">شماره موبایل</label>
+      <FormField label="شماره موبایل" :error="errors.phone">
         <InputText
           v-model="form.phone"
           @blur="validatePhone"
@@ -35,22 +35,9 @@ const { handleSubmit, serverError, form, errors, validatePassword, validatePhone
           inputmode="tel"
           maxlength="11"
         />
-        <Transition
-          enter-active-class="transition-all duration-200"
-          enter-from-class="opacity-0 -translate-y-1"
-          enter-to-class="opacity-100 translate-y-0"
-        >
-          <span v-if="errors.phone" class="text-xs text-red-500">
-            <i class="pi pi-exclamation-triangle" style="font-size: 0.6rem"></i>
-            {{ errors.phone }}
-          </span>
-        </Transition>
-      </div>
+      </FormField>
 
-      <div class="flex flex-col gap-1.5">
-        <div class="flex items-center justify-between">
-          <label class="text-sm font-medium text-gray-700">رمز عبور</label>
-        </div>
+      <FormField label="رمز عبور" :error="errors.password">
         <Password
           v-model="form.password"
           @blur="validatePassword"
@@ -61,17 +48,7 @@ const { handleSubmit, serverError, form, errors, validatePassword, validatePhone
           class="w-full"
           inputClass="w-full placeholder:text-sm"
         />
-        <Transition
-          enter-active-class="transition-all duration-200"
-          enter-from-class="opacity-0 -translate-y-1"
-          enter-to-class="opacity-100 translate-y-0"
-        >
-          <span v-if="errors.password" class="text-xs text-red-500">
-            <i class="pi pi-exclamation-triangle" style="font-size: 0.6rem"></i>
-            {{ errors.password }}
-          </span>
-        </Transition>
-      </div>
+      </FormField>
 
       <div class="w-full flex justify-between">
         <RouterLink to="/forget-password" class="text-blue-900 text-xs md:text-sm">
