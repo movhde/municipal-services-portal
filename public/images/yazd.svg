@@ -1,0 +1,299 @@
+<svg width="1000" height="550" viewBox="0 0 1000 550" xmlns="http://www.w3.org/2000/svg">
+  <!-- ==================== خط صاف پایین (لبه زمین) ==================== -->
+  <line x1="0" y1="500" x2="1000" y2="500" stroke="#92b3e2" stroke-width="2.5"/>
+  
+  <!-- ==================== مسجد جامع یزد (مرکز - بزرگتر) ==================== -->
+  
+  <!-- ایوان بزرگ مسجد جامع -->
+  <path d="M400 500 L400 250 Q500 160 600 250 L600 500" fill="none" stroke="#92b3e2" stroke-width="2.5"/>
+  
+  <!-- طاق جناقی ایوان اصلی -->
+  <path d="M430 500 L430 290 Q500 220 570 290 L570 500" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  
+  <!-- کاشی کاری معرق طاق ایوان -->
+  <path d="M455 500 L455 330 Q500 260 545 330 L545 500" fill="none" stroke="#92b3e2" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <path d="M475 500 L475 365 Q500 305 525 365 L525 500" fill="none" stroke="#92b3e2" stroke-width="1.5" stroke-dasharray="3,3"/>
+  
+  <!-- محراب داخل ایوان -->
+  <path d="M490 500 L490 400 Q500 370 510 400 L510 500" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  
+  <!-- مناره راست مسجد جامع -->
+  <rect x="585" y="80" width="22" height="420" fill="none" stroke="#92b3e2" stroke-width="2.5"/>
+  
+  <!-- تزئینات کاشی کاری مناره راست -->
+  <g stroke="#92b3e2" stroke-width="1.5" stroke-dasharray="4,4">
+    <line x1="585" y1="110" x2="607" y2="110"/>
+    <line x1="585" y1="140" x2="607" y2="140"/>
+    <line x1="585" y1="170" x2="607" y2="170"/>
+    <line x1="585" y1="200" x2="607" y2="200"/>
+    <line x1="585" y1="230" x2="607" y2="230"/>
+    <line x1="585" y1="260" x2="607" y2="260"/>
+  </g>
+  
+  <!-- سر مناره راست -->
+  <polygon points="585,80 596,30 607,80" fill="none" stroke="#92b3e2" stroke-width="2.5"/>
+  <circle cx="596" cy="28" r="5" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  
+  <!-- مناره چپ مسجد جامع -->
+  <rect x="393" y="80" width="22" height="420" fill="none" stroke="#92b3e2" stroke-width="2.5"/>
+  
+  <!-- تزئینات کاشی کاری مناره چپ -->
+  <g stroke="#92b3e2" stroke-width="1.5" stroke-dasharray="4,4">
+    <line x1="393" y1="110" x2="415" y2="110"/>
+    <line x1="393" y1="140" x2="415" y2="140"/>
+    <line x1="393" y1="170" x2="415" y2="170"/>
+    <line x1="393" y1="200" x2="415" y2="200"/>
+    <line x1="393" y1="230" x2="415" y2="230"/>
+    <line x1="393" y1="260" x2="415" y2="260"/>
+  </g>
+  
+  <!-- سر مناره چپ -->
+  <polygon points="393,80 404,30 415,80" fill="none" stroke="#92b3e2" stroke-width="2.5"/>
+  <circle cx="404" cy="28" r="5" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  
+  <!-- ==================== گنبد حرفه‌ای مسجد جامع ==================== -->
+  
+  <!-- بدنه گنبد -->
+  <path d="M440 250 Q500 130 560 250" fill="none" stroke="#92b3e2" stroke-width="2.5"/>
+  
+  <!-- تزئینات کاشی کاری گنبد (لوزی‌های معرق) -->
+  <g stroke="#92b3e2" stroke-width="1.5" fill="none">
+    <path d="M460 240 Q500 160 540 240" stroke-dasharray="6,4"/>
+    <path d="M475 220 Q500 170 525 220" stroke-dasharray="4,4"/>
+    <path d="M490 195 Q500 175 510 195" stroke-dasharray="3,3"/>
+    
+    <!-- لوزی‌های تزئینی روی گنبد -->
+    <polygon points="500,170 510,185 500,200 490,185"/>
+    <polygon points="475,195 485,208 475,220 465,208"/>
+    <polygon points="525,195 535,208 525,220 515,208"/>
+    <polygon points="455,220 463,230 455,240 447,230"/>
+    <polygon points="545,220 553,230 545,240 537,230"/>
+  </g>
+  
+  <!-- حلقه زیر گنبد -->
+  <rect x="440" y="245" width="120" height="8" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- ==================== بادگیرهای متعدد (10 عدد) ==================== -->
+  
+  <!-- بادگیر 1 (راست دور) -->
+  <rect x="680" y="180" width="45" height="320" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <polygon points="680,180 702,100 725,180" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <g stroke="#92b3e2" stroke-width="1">
+    <line x1="690" y1="200" x2="715" y2="200"/>
+    <line x1="690" y1="220" x2="715" y2="220"/>
+    <line x1="690" y1="240" x2="715" y2="240"/>
+    <line x1="690" y1="260" x2="715" y2="260"/>
+    <line x1="702" y1="180" x2="702" y2="280"/>
+  </g>
+  
+  <!-- بادگیر 2 -->
+  <rect x="630" y="210" width="40" height="290" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <polygon points="630,210 650,140 670,210" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <g stroke="#92b3e2" stroke-width="1">
+    <line x1="640" y1="230" x2="660" y2="230"/>
+    <line x1="640" y1="250" x2="660" y2="250"/>
+    <line x1="640" y1="270" x2="660" y2="270"/>
+    <line x1="650" y1="210" x2="650" y2="290"/>
+  </g>
+  
+  <!-- بادگیر 3 -->
+  <rect x="740" y="230" width="35" height="270" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <polygon points="740,230 757,165 775,230" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <g stroke="#92b3e2" stroke-width="1">
+    <line x1="748" y1="250" x2="767" y2="250"/>
+    <line x1="748" y1="270" x2="767" y2="270"/>
+  </g>
+  
+  <!-- بادگیر 4 (چپ دور) -->
+  <rect x="220" y="170" width="45" height="330" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <polygon points="220,170 242,90 265,170" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <g stroke="#92b3e2" stroke-width="1">
+    <line x1="230" y1="190" x2="255" y2="190"/>
+    <line x1="230" y1="210" x2="255" y2="210"/>
+    <line x1="230" y1="230" x2="255" y2="230"/>
+    <line x1="230" y1="250" x2="255" y2="250"/>
+    <line x1="242" y1="170" x2="242" y2="270"/>
+  </g>
+  
+  <!-- بادگیر 5 -->
+  <rect x="280" y="200" width="38" height="300" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <polygon points="280,200 299,135 318,200" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <g stroke="#92b3e2" stroke-width="1">
+    <line x1="290" y1="220" x2="308" y2="220"/>
+    <line x1="290" y1="240" x2="308" y2="240"/>
+    <line x1="290" y1="260" x2="308" y2="260"/>
+    <line x1="299" y1="200" x2="299" y2="280"/>
+  </g>
+  
+  <!-- بادگیر 6 -->
+  <rect x="170" y="220" width="35" height="280" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <polygon points="170,220 187,155 205,220" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- بادگیر 7 -->
+  <rect x="790" y="260" width="30" height="240" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <polygon points="790,260 805,200 820,260" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- بادگیر 8 -->
+  <rect x="120" y="250" width="30" height="250" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <polygon points="120,250 135,195 150,250" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- بادگیر 9 (کوچک) -->
+  <rect x="850" y="290" width="25" height="210" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <polygon points="850,290 862,240 875,290" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- بادگیر 10 (کوچک) -->
+  <rect x="90" y="280" width="25" height="220" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <polygon points="90,280 102,230 115,280" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- ==================== ساختمان‌های بیشتر (ردیف اول) ==================== -->
+  
+  <!-- ساختمان 1 (راست) -->
+  <rect x="660" y="380" width="55" height="120" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <rect x="670" y="400" width="14" height="18" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <rect x="692" y="400" width="14" height="18" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <path d="M675 500 L675 475 Q687 465 700 475 L700 500" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- ساختمان 2 -->
+  <rect x="730" y="400" width="50" height="100" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <rect x="740" y="420" width="12" height="15" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <rect x="758" y="420" width="12" height="15" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  
+  <!-- ساختمان 3 -->
+  <rect x="800" y="370" width="45" height="130" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <rect x="808" y="390" width="10" height="14" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <rect x="826" y="390" width="10" height="14" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  
+  <!-- ساختمان 4 (چپ) -->
+  <rect x="310" y="370" width="55" height="130" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <rect x="320" y="390" width="14" height="18" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <rect x="342" y="390" width="14" height="18" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <path d="M325 500 L325 475 Q337 465 350 475 L350 500" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- ساختمان 5 -->
+  <rect x="240" y="390" width="50" height="110" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <rect x="250" y="410" width="12" height="15" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <rect x="268" y="410" width="12" height="15" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  
+  <!-- ساختمان 6 -->
+  <rect x="130" y="380" width="45" height="120" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <rect x="138" y="400" width="10" height="14" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <rect x="156" y="400" width="10" height="14" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  
+  <!-- ساختمان 7 -->
+  <rect x="50" y="400" width="50" height="100" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <rect x="60" y="420" width="12" height="15" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <rect x="78" y="420" width="12" height="15" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  
+  <!-- ساختمان 8 (راست دور) -->
+  <rect x="890" y="420" width="40" height="80" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- ساختمان 9 (چپ دور) -->
+  <rect x="10" y="430" width="40" height="70" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- ==================== ردیف دوم ساختمان‌ها (جلوتر/کوچکتر) ==================== -->
+  
+  <rect x="620" y="430" width="40" height="70" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <rect x="628" y="445" width="10" height="12" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  
+  <rect x="700" y="440" width="35" height="60" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <rect x="350" y="430" width="40" height="70" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <rect x="358" y="445" width="10" height="12" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  
+  <rect x="190" y="440" width="35" height="60" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <rect x="750" y="450" width="30" height="50" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <rect x="80" y="450" width="30" height="50" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  
+  <!-- ==================== گنبدهای کوچک اضافه ==================== -->
+  
+  <!-- گنبد کوچک 1 -->
+  <path d="M655 430 Q672 395 690 430" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <rect x="655" y="430" width="35" height="20" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- گنبد کوچک 2 -->
+  <path d="M280 430 Q295 400 310 430" fill="none" stroke="#92b3e2" stroke-width="2"/>
+  <rect x="280" y="430" width="30" height="20" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  
+  <!-- گنبد کوچک 3 -->
+  <path d="M810 420 Q825 390 840 420" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <rect x="810" y="420" width="30" height="15" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  
+  <!-- گنبد کوچک 4 -->
+  <path d="M140 430 Q155 405 170 430" fill="none" stroke="#92b3e2" stroke-width="1.5"/>
+  <rect x="140" y="430" width="30" height="15" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  
+  <!-- ==================== بافت کوچه‌ها و پله‌های پشت بام ==================== -->
+  
+  <!-- کوچه اصلی -->
+  <line x1="340" y1="500" x2="340" y2="460" stroke="#92b3e2" stroke-width="1.5" stroke-dasharray="4,4"/>
+  <line x1="660" y1="500" x2="660" y2="460" stroke="#92b3e2" stroke-width="1.5" stroke-dasharray="4,4"/>
+  
+  <!-- پله‌های پشت بام -->
+  <g stroke="#92b3e2" stroke-width="1" fill="none">
+    <line x1="695" y1="430" x2="695" y2="415"/>
+    <line x1="690" y1="415" x2="700" y2="415"/>
+    <line x1="690" y1="425" x2="700" y2="425"/>
+    
+    <line x1="335" y1="430" x2="335" y2="415"/>
+    <line x1="330" y1="415" x2="340" y2="415"/>
+    <line x1="330" y1="425" x2="340" y2="425"/>
+  </g>
+  
+  <!-- حوض‌های سنتی روی پشت بام -->
+  <rect x="710" y="420" width="18" height="12" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <line x1="719" y1="420" x2="719" y2="416" stroke="#92b3e2" stroke-width="1"/>
+  
+  <rect x="300" y="420" width="18" height="12" fill="none" stroke="#92b3e2" stroke-width="1"/>
+  <line x1="309" y1="420" x2="309" y2="416" stroke="#92b3e2" stroke-width="1"/>
+  
+  <!-- ==================== درختان سرو ==================== -->
+  
+  <!-- سرو راست -->
+  <g stroke="#92b3e2" stroke-width="1.5" fill="none">
+    <line x1="950" y1="500" x2="950" y2="430"/>
+    <path d="M950 430 Q932 448 950 470"/>
+    <path d="M950 430 Q968 448 950 470"/>
+    <path d="M950 442 Q936 458 950 478"/>
+    <path d="M950 442 Q964 458 950 478"/>
+    <path d="M950 455 Q940 468 950 485"/>
+    <path d="M950 455 Q960 468 950 485"/>
+  </g>
+  
+  <!-- سرو چپ -->
+  <g stroke="#92b3e2" stroke-width="1.5" fill="none">
+    <line x1="30" y1="500" x2="30" y2="450"/>
+    <path d="M30 450 Q18 463 30 478"/>
+    <path d="M30 450 Q42 463 30 478"/>
+    <path d="M30 460 Q22 470 30 485"/>
+    <path d="M30 460 Q38 470 30 485"/>
+  </g>
+  
+  <!-- ==================== خط تزئینی کتیبه پایین ==================== -->
+  <line x1="0" y1="530" x2="1000" y2="530" stroke="#92b3e2" stroke-width="1.5" stroke-dasharray="10,5"/>
+  
+  <!-- نقوش هندسی لبه پایین -->
+  <g stroke="#92b3e2" stroke-width="1" fill="none">
+    <polygon points="30,535 37,528 44,535"/>
+    <polygon points="80,535 87,528 94,535"/>
+    <polygon points="130,535 137,528 144,535"/>
+    <polygon points="180,535 187,528 194,535"/>
+    <polygon points="230,535 237,528 244,535"/>
+    <polygon points="280,535 287,528 294,535"/>
+    <polygon points="330,535 337,528 344,535"/>
+    <polygon points="380,535 387,528 394,535"/>
+    <polygon points="430,535 437,528 444,535"/>
+    <polygon points="480,535 487,528 494,535"/>
+    <polygon points="530,535 537,528 544,535"/>
+    <polygon points="580,535 587,528 594,535"/>
+    <polygon points="630,535 637,528 644,535"/>
+    <polygon points="680,535 687,528 694,535"/>
+    <polygon points="730,535 737,528 744,535"/>
+    <polygon points="780,535 787,528 794,535"/>
+    <polygon points="830,535 837,528 844,535"/>
+    <polygon points="880,535 887,528 894,535"/>
+    <polygon points="930,535 937,528 944,535"/>
+    <polygon points="980,535 987,528 994,535"/>
+  </g>
+  
+</svg>

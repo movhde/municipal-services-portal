@@ -4,7 +4,10 @@ export interface LoginForm {
   rememberMe: boolean
 }
 
-export type LoginFormErrors = Partial<LoginForm>
+export type LoginFormErrors = {
+  phone?: string
+  password?: string
+}
 
 export interface User {
   id: number
@@ -14,4 +17,24 @@ export interface User {
   nationalCode: string
   email: string
   password: string
+}
+
+export interface SignupForm {
+  firstName: string
+  lastName: string
+  phone: string
+  nationalCode: string
+  email: string
+  password: string
+  confirmPassword: string
+}
+
+export type SignupFormErrors = {
+  firstName?: string
+  lastName?: string
+  phone?: string
+  nationalCode?: string
+  email?: string
+  password?: string
+  confirmPassword?: string
 }
