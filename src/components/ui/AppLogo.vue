@@ -1,5 +1,5 @@
 <template>
-  <div class="hidden md:flex flex-col w-fit items-center">
+  <RouterLink to="/" class="hidden md:flex flex-col w-fit items-center">
     <h1
       class="bg-linear-to-tr from-cyan-500 via-[#7c96e5] to-[#4ac8e6] bg-clip-text text-transparent font-black text-5xl md:text-3xl leading-normal"
     >
@@ -10,5 +10,5 @@
     >
       خدمتگذار هوشمند شهر
     </h3>
-  </div>
+  </RouterLink>
 </template>
